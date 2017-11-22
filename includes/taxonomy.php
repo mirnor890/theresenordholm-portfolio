@@ -59,5 +59,24 @@ function create_project_skill() {
 
 add_action( 'init', 'create_project_skill' );
 
+function shape_register_custom_background() {
+    $args = array(
+        'default-color' => 'e9e0d1',
+    );
+ 
+    $args = apply_filters( 'shape_custom_background_args', $args );
+ 
+    if ( function_exists( 'wp_get_theme' ) ) {
+        add_theme_support( 'custom-background', $args );
+    } else {
+        define( 'BACKGROUND_COLOR', $args['default-color'] );
+        define( 'BACKGROUND_IMAGE', $args['default-image'] );
+        add_custom_background();
+    }
+}
+add_action( 'after_setup_theme', 'shape_register_custom_background' );
+ 
+
+
 ?>
 
