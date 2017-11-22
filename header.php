@@ -8,3 +8,6 @@
   </head>
 
   <body>
+  		<?php include ('partials/sitehead.php') ?>
+
+

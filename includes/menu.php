@@ -9,4 +9,7 @@ function register_my_menus() {
 }
 add_action( 'init', 'register_my_menus' );
 
+
+
+//wp_nav_menu( array( 'theme_location' => 'header-menu' ) );
 ?>

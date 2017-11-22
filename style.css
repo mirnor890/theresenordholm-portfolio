@@ -4,3 +4,45 @@ Theme URI: http://theresenordholm.se/
 Author: Miranda, Viktoria & Maria
 Description: Costumized portfoliotheme for theresenordholm.se
 */
+/* Allmänt */
+body{
+	width: 100%;
+}
+/* Header */
+header{
+	
+}
+header nav{
+	overflow: hidden;
+	text-align: center;
+	width: 100%;
+}
+header nav ul{
+ display: block;
+ margin: 0 auto;
+ width: 30%;
+}
+header nav ul li{
+	float: left;
+	list-style-type: none;
+	margin: 0 20px 0 20px;
+	
+
+}
+header nav ul li a{
+	text-decoration: none;
+	color: #000;
+	
+
+}
+header nav li a:hover{
+	color: red;
+}
+/* Front */
+
+/* Konserter */
+
+/* Musik */
+
+/* Press */
+
