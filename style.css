@@ -8,6 +8,9 @@ Description: Costumized portfoliotheme for theresenordholm.se
 body{
 	width: 100%;
 }
+a, p, h1 {
+	font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+}
 /* Header */
 header{
 	
@@ -36,7 +39,7 @@ header nav ul li a{
 
 }
 header nav li a:hover{
-	color: red;
+	color: #f2e2f0;
 }
 /* Front */
 

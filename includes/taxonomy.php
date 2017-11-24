@@ -77,6 +77,42 @@ function shape_register_custom_background() {
 add_action( 'after_setup_theme', 'shape_register_custom_background' );
  
 
+  
+/*
+ * Adds the custom header option to the theme
+ */
+function addthemeoptions(){
+    //Default values of the header image
+    $header_defaults = array(
+    'default-image'          => '%s/images/header.png',
+    'random-default'         => false,
+    'flex-height'            => false,
+    'flex-width'             => false,
+    'default-text-color'     => '',
+    'header-text'            => false,
+    'uploads'                => true,
+    'wp-head-callback'       => '',
+    'admin-head-callback'    => '',
+    'admin-preview-callback' => '',
+);
+    //Adds the support to use custom header images
+    add_theme_support( 'custom-header', $header_defaults );
+
+    $background_defaults = array(
+    'default-color'          => '#FFFFFF',
+    'default-image'          => '',
+    'wp-head-callback'       => '_custom_background_cb',
+    'admin-head-callback'    => '',
+    'admin-preview-callback' => ''
+);
+
+}
+
+//Execute our custom theme functionality
+add_action( 'after_setup_theme', 'addthemeoptions' );
+
+
+
 
 ?>
 

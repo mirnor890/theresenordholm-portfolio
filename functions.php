@@ -4,7 +4,16 @@ add_theme_support( 'post-thumbnails', array( 'post' ) );
 add_theme_support( 'title-tag' );
 
 
-add_theme_support( 'custom-background' );
+
+add_theme_support( 'custom-background', $background_defaults );
+
+// $args = array(
+//   'default-color' => '000000',
+//   'default-image' => 'img/bg.jpg',
+//  );
+
+// add_theme_support( 'custom-background', $args );
+
 //include ('includes/menu.php');
 include ('includes/postType.php');
 include ('includes/taxonomy.php');
