@@ -1,7 +1,7 @@
 <?php
 
 add_image_size( 'grid_thumbnail', 250, 250, true );
-add_image_size( 'single_large', 660, 400, false );
+add_image_size( 'single', 200, 200, false );
 add_image_size( 'background', 1000, 900, true );
 
 

@@ -1,2 +1,3 @@
 <?php get_header(); ?>
-<?php include ('partials/front.php'); ?>
+<html>
+<?php include ('partials/content.php') ?>
