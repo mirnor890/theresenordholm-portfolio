@@ -53,7 +53,7 @@ header nav li a:hover{
 
 
 #feedback-page{
-	text-align:center;
+	text-align:;
 }
 
 #form-main{
@@ -63,30 +63,28 @@ header nav li a:hover{
 }
 
 #form-div {
-	background-color:rgba(72,72,72,0.4);
-	padding-left:30px;
-	padding-right:30px;
+	background-color:#f2e2f0;
+	padding-left:20px;
+	padding-right:20px;
 	padding-top:3px;
-	padding-bottom:50px;
+	padding-bottom:40px;
 	width: 300px;
 	float: left;
 	left: 50%;
 	position: absolute;
-  margin-top:30px;
+  margin-top:20px;
 	margin-left: -260px;
   -moz-border-radius: 7px;
   -webkit-border-radius: 7px;
 }
 
 .feedback-input {
-	color:#3c3c3c;
-	font-family: Helvetica, Arial, sans-serif;
-  font-weight:500;
-	font-size: 18px;
+	color:#f2e2f0;
+	font-size: 16px;
 	border-radius: 0;
 	line-height: 22px;
 	background-color: #fbfbfb;
-	padding: 13px 13px 13px 54px;
+	padding: 10px 10px 10px 10px;
 	margin-bottom: 10px;
 	width:100%;
 	-webkit-box-sizing: border-box;
@@ -99,8 +97,8 @@ header nav li a:hover{
 .feedback-input:focus{
 	background: #fff;
 	box-shadow: 0;
-	border: 3px solid #3498db;
-	color: #3498db;
+	border: 3px solid #f2e2f0;
+	color: #f2e2f0;
 	outline: none;
   padding: 13px 13px 13px 54px;
 }
@@ -124,25 +122,23 @@ input:focus, textarea:focus {
 }
 
 #button{
-	font-family: 'Montserrat', Arial, Helvetica, sans-serif;
 	float:left;
 	width: 100%;
 	border: #fbfbfb solid 4px;
 	cursor:pointer;
 	background-color: #f2e2f0;
 	color:white;
-	font-size:18px;
+	font-size:16px;
 	padding-top:20px;
 	padding-bottom:20px;
 	-webkit-transition: all 0.3s;
 	-moz-transition: all 0.3s;
 	transition: all 0.3s;
   margin-top:-4px;
-  font-weight:700;
 }
 
 #button:hover{
-	background-color: rgba(0,0,0,0);
+	background-color: #fff;
 	color: #f2e2f0;
 }
 	
@@ -152,7 +148,7 @@ input:focus, textarea:focus {
 	
 .ease {
 	width: 0px;
-	height: 74px;
+	height: 40px;
 	background-color: #fbfbfb;
 	-webkit-transition: .3s ease;
 	-moz-transition: .3s ease;

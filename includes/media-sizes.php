@@ -2,7 +2,7 @@
 
 add_image_size( 'grid_thumbnail', 250, 250, true );
 add_image_size( 'single', 200, 200, false );
-add_image_size( 'background', 1000, 900, true );
+add_image_size( 'background', 1400, 1300, true );
 
 
 //wp_get_attachment_image( 321, 'my-custom-imageversion' );
