@@ -19,5 +19,5 @@ include ('includes/postType.php');
 include ('includes/taxonomy.php');
 include ('includes/media-sizes.php');
 include ('includes/widget.php');
-
+include('includes/reg_menu.php');
 ?>
