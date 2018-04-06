@@ -52,10 +52,6 @@ header nav li a:hover{
 /* footer */
 
 
-#feedback-page{
-	text-align:;
-}
-
 #form-main{
 	width:100%;
 	float:left;
@@ -91,7 +87,7 @@ header nav li a:hover{
 	-moz-box-sizing: border-box;
 	-ms-box-sizing: border-box;
 	box-sizing: border-box;
-  border: 3px solid rgba(0,0,0,0);
+  	border: 3px solid rgba(0,0,0,0);
 }
 
 .feedback-input:focus{
